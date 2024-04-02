@@ -1,5 +1,4 @@
 import streamlit as st
-from sklearn import datasets
 import pandas as pd
 import joblib
 import pickle
