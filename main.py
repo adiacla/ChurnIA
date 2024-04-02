@@ -20,14 +20,6 @@ st.set_page_config(
 
 tab1, tab2, tab3, tab4 = st.tabs(["Introducción","Naive Bayes", "Modelo Arbol", "Modelo Bosque"])
 
-
-# Cargar los datos de prueba (características y etiquetas) desde archivos .pkl
-with open('datos/X.pkl', 'rb') as file:
-    X_test = pickle.load(file)
-
-with open('datos/y.pkl', 'rb') as file:
-    y_test = pickle.load(file)
-
 with tab1:
     st.title("Hola! Bienvenido a mi pagina")
     with st.container( border=True):
