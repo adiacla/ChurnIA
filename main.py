@@ -58,7 +58,7 @@ comparar los resultados.
         
 with tab2:
     # Cargar el modelo de Naive Bayes
-    modelo_nb = joblib.load('modelos/ModeloNb1.bin')
+    modelo_nb = joblib.load('ModeloNb1.bin')
     # Cargar el modelo entrenado desde el archivo .pkl
     #with open('modelos/modelo_entrenadoNB.pkl', 'rb') as file:
        # modelo = pickle.load(file)
@@ -171,7 +171,7 @@ with tab2:
 
 with tab3:
     #Cargar el modelo de Arbol
-    modelo_arbol = joblib.load('modelos/ModeloArbol.bin')
+    modelo_arbol = joblib.load('ModeloArbol.bin')
     
     st.title("Predicción con modelo Arbol")
     st.write("Visualiza los datos ingresados aqui:")
@@ -233,7 +233,7 @@ with tab3:
    
 with tab4:
     # Cargar el modelo de Naive Bayes
-    modelo_bosque = joblib.load('modelos/Modelobosque.bin')
+    modelo_bosque = joblib.load('Modelobosque.bin')
 
     st.title("Predicción con modelo Bosque")
     st.write("Visualiza los datos ingresados aqui:")
