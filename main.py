@@ -233,7 +233,7 @@ with tab3:
    
 with tab4:
     # Cargar el modelo de Naive Bayes
-    modelo_bosque = joblib.load('Modelobosque.bin')
+    modelo_bosque = joblib.load('modelobosque.bin')
 
     st.title("Predicción con modelo Bosque")
     st.write("Visualiza los datos ingresados aqui:")
