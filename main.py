@@ -29,7 +29,7 @@ with tab1:
                  Angely Gabriela Cristancho:\U0001F33B\U0001F42C:""")
         st.write("""
 
-**Introducción** 
+**Introducción: ** 
 cliente de nuestros sueños es el que permanece fiel a la empresa, comprando siempre sus productos o servicios. Sin embargo, en la realidad, 
 los clientes a veces deciden alejarse de la empresa para probar o empezar a comprar otros productos o servicios y esto puede ocurrir en 
 cualquier fase del customer journey. Sin embargo, existen varias medidas para prevenir o gestionar mejor esta circunstancia. Por eso lo mejor
@@ -54,7 +54,7 @@ comparar los resultados.
                 Google Colab con las librerias de scikit-learn par Naive Bayes, Arbles de Decisión y Bosques Aleatorios.
                 En este notebook podrás verificar el preprocesamiento del dataset y el entrenamiento y las pruebas
                 y scores obtenidos.
-                https://colab.research.google.com/drive/1bevxqlT_gQsZTrokc2LleIh40YTlQc2y?usp=sharing""")
+                https://colab.research.google.com/drive/1Lth_RqbnAnBVAMjSWinpXoTitI9OPaIv""")
         
 with tab2:
     # Cargar el modelo de Naive Bayes
