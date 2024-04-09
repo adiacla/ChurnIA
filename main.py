@@ -18,7 +18,7 @@ st.set_page_config(
     }
   )
 
-tab1, tab2, tab3, tab4 = st.tabs(["Introducción","Naive Bayes", "Modelo Arbol", "Modelo Bosque"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["Introducción","Naive Bayes", "Modelo Arbol", "Modelo Bosque", "Modelo RL"])
 
 with tab1:
     st.title("Hola! Bienvenido a mi pagina")
