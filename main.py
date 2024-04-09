@@ -349,6 +349,6 @@ with tab5:
     col1, col2= st.columns(2)
     col1.metric(label="Probalidad de NO :", value="{0:.2%}".format(probabilidad_rl[0][0]),delta=" ")
     col2.metric(label="Probalidad de SI:", value="{0:.2%}".format(probabilidad_rl[0][1]),delta=" ")
-    features=modelo_rl.feature_names_in_
-    importancia_rl=pd.Series(importancia_rl,index=features)
-    st.bar_chart(importancia_rl)
+    #features=modelo_rl.feature_names_in_
+    #importancia_rl=pd.Series(importancia_rl,index=features)
+    #st.bar_chart(importancia_rl)
