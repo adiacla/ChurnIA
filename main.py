@@ -345,7 +345,7 @@ with tab5:
     show_result(True)  # Cambia a False si el resultado es NEGATIVO
 
     probabilidad_rl=modelo_rl.predict_proba(nueva_persona_2d)
-    importancia_rl=modelo_rl.feature_importances_
+    #importancia_rl=modelo_rl.feature_importances_
     col1, col2= st.columns(2)
     col1.metric(label="Probalidad de NO :", value="{0:.2%}".format(probabilidad_rl[0][0]),delta=" ")
     col2.metric(label="Probalidad de SI:", value="{0:.2%}".format(probabilidad_rl[0][1]),delta=" ")
