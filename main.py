@@ -21,7 +21,7 @@ st.set_page_config(
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["Introducción","Naive Bayes", "Modelo Arbol", "Modelo Bosque", "Modelo RL"])
 
 with tab1:
-    st.title("Hola! Bienvenido a mi pagina")
+    st.title("Bienvenido! Pagina de prediccion de deserción")
     with st.container( border=True):
         st.subheader("Modelo Machine Learning para predecir la deserción de clientes")
         #Se desea usar emoji lo puedes buscar aqui.
